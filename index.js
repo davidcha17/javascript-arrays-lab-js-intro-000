@@ -17,6 +17,6 @@ function destructivelyRemoveFirstKitten(name) {
 }
 
 function appendKitten(name) {
-  name = name.slice(0, appendKitten.length -1)
+  name = name.push(name)
   return name
 }
